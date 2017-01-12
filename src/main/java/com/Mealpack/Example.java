@@ -28,9 +28,9 @@ public class Example {
 
 
 
-    @RequestMapping(value = "/home", produces = "application/json")
+    @RequestMapping(value = "/", produces = "text/html")
     String home() {
-        return "{}";
+        return "<h1>APP is runnig</h1>";
     }
 
 
